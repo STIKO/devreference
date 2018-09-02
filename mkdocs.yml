@@ -1,0 +1,9 @@
+site_name: Dev Refrence
+
+theme:
+    name: 'material'
+
+# pages:
+#   - Home: [Bulk_chmod.md, Display_All_Permissions.md, Grant_Container_Engine_Permission.md, Install_Stack_Driver_Agent.md, Mac.md, Nginx_in_Production.md, Safari_Redirects.md, Script_in_the_Background.md, Unix.md, htaccess.md, javascript_substring.md, kubectl.md, sql_mode.md, ssl.md]
+#   - About: About.md
+    
