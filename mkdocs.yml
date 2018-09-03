@@ -2,7 +2,9 @@ site_name: Dev Reference
 site_url: https://stiko.github.io/devreference/
 repo_url: https://github.com/stiko/devreference
 repo_name: GitHub
-google_analytics: ['UA-125144751-1']
+google_analytics:
+  - 'UA-125144751-1'
+  - 'auto'
 theme:
     name: 'material'
 
