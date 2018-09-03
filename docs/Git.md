@@ -22,3 +22,16 @@ git clean -fx
 **_Note_** the case difference on the X for the two prev commands.
 If `clean.requireForce` is set to `true` (the default) in your configuration, then unless you specify -f nothing will actually happen.
 See the `git-clean` docs for more information.
+
+##Git Coloring
+
+enable coloring
+```bash
+git config --global color.ui true
+```
+
+To change a color
+```bash
+git config color.status.changed blue
+git config color.status.untracked magenta
+```
