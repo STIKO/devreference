@@ -2,9 +2,9 @@
 ```bash
 df -h
 ```
-##Disk size
+##Folders/Files size
 ```bash
-df -h
+du -sh */
 ```
 ##Bulk chmod
 Change permission to all files/folders
