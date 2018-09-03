@@ -1,5 +1,5 @@
-kubctl
-
+##kubctl
+#@TODO
 Steps
 1- Create docker image and test
 2- After you’re happy with the image, push it to gcr.io/project_id/img-name:img-version
