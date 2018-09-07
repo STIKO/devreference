@@ -447,6 +447,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#replce-text-in-file" title="Replce Text in File" class="md-nav__link">
+    Replce Text in File
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#search-text-in-files" title="Search Text in Files" class="md-nav__link">
     Search Text in Files
   </a>
@@ -564,6 +571,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#replce-text-in-file" title="Replce Text in File" class="md-nav__link">
+    Replce Text in File
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#search-text-in-files" title="Search Text in Files" class="md-nav__link">
     Search Text in Files
   </a>
@@ -609,6 +623,23 @@
 <pre><code class="bash">find /opt/lampp/htdocs -type f -exec chmod 644 {} \;
 </code></pre>
 
+<h2 id="replce-text-in-file">Replce Text in File</h2>
+<pre><code class="bash">sed -i 's/original/new/g' file.txt
+</code></pre>
+
+<p>Explanation:</p>
+<ul>
+<li>sed = Stream EDitor</li>
+<li>-i = in-place (i.e. save back to the original file)</li>
+<li>The command string:<ul>
+<li>s = the substitute command</li>
+<li>original = a regular expression describing the word to replace (or just the word itself)</li>
+<li>new = the text to replace it with</li>
+<li>g = global (i.e. replace all and not just the first occurrence)</li>
+</ul>
+</li>
+<li>file.txt = the file name</li>
+</ul>
 <h2 id="search-text-in-files">Search Text in Files</h2>
 <p>Do the following:</p>
 <pre><code class="bash">grep -rnw 'directory' -e &quot;pattern&quot;
