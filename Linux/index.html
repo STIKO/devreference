@@ -360,6 +360,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#replce-text-in-file" title="Replce Text in File" class="md-nav__link">
+    Replce Text in File
+  </a>
+  
+</li>
+      
       
       
       
@@ -528,6 +535,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#replce-text-in-file" title="Replce Text in File" class="md-nav__link">
+    Replce Text in File
+  </a>
+  
+</li>
+      
       
       
       
@@ -553,6 +567,20 @@
 <p>Display all the permissions on a path:</p>
 <pre><code class="bash">namei -om /path/to/check
 </code></pre>
+
+<h2 id="replce-text-in-file">Replce Text in File</h2>
+<pre><code class="bash">sed -i 's/original/new/g' file.txt
+</code></pre>
+
+<p>Explanation:
+    * sed = Stream EDitor
+    * -i = in-place (i.e. save back to the original file)
+    * The command string:
+        * s = the substitute command
+        * original = a regular expression describing the word to replace (or just the word itself)
+        * new = the text to replace it with
+        * g = global (i.e. replace all and not just the first occurrence)
+    * file.txt = the file name</p>
                 
                   
                 
